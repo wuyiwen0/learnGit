@@ -1,0 +1,203 @@
+<html> 
+<head>
+    <title>你问我答内容页</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery.js"></script> 
+    <script type="text/javascript" charset="utf-8">
+        
+    </script>
+    <style type="text/css" media="screen">
+        html{padding-bottom:0px;margin:0px;border:0px;}
+        body{padding-bottom:0px;padding:0px;margin:0px;border:0px;}
+        a{color:#000;text-decoration:none;}      
+        .content{zoom:1;background-color:#fade98;padding:0px;}
+        .mybody{overflow:hidden;zoom:1;width:1250px;margin:auto;overflow-y:hidden;float: right;}
+        .header{overflow:hidden;zoom:1;background-color:#ffb61e;margin-top:0px;height:70px;}
+        .logo{float:left;padding-top:10px;padding-left:30px;height:70px;}
+        .nav{float:left;overflow:hidden;zoom:1;margin-top:0px;width:800px;z-index:1;}
+        .nav ul{overflow:hidden;zoom:1;padding-left:0px;padding-top:13px;}
+        .nav ul li{width:148px;float:left;text-align:center;list-style-type:none;}
+        .nav ul li a{font-size:20px;text-decoration:none;color:#fff;font-weight:bold;display:block;font-family: '微软雅黑';}
+        .nav ul li a:hover{text-decoration:none;color:#ff7043;}
+        .nav li ul li{width:110px;background-color:#ffb61e ;text-decoration:none; margin-left: 40px;color:white; font-weight:bold; font-size:15px;opacity:0.5;}
+        .nav li ul{width:153px;text-align:left;position:absolute;display:none;z-index:1;} 
+        .nav li:hover ul{display: block;margin-left: -22px;}
+
+       
+
+        .nav li ul a{font-family: '微软雅黑';margin-left:-28px;margin-top:6px;font-size: 14px;height:40px;width:108px;padding:0px 15px 0px 30px;display: block;}
+        .bread{position:relative;margin-left:10px;margin-top:20px;}
+        .bread a{text-decoration:none;font-size: 14px;color:#607d8b;font-weight:bold;font-family: '微软雅黑';}
+        .name {position:relative;margin-left:50px;margin-top:55px;color:#e51c23;font-size: 17px;font-weight:bold;font-family: '微软雅黑';}
+        .date1{position:relative;margin-left:200px;margin-top:-20px;color:#607d8b;font-size: 13px;font-family: '微软雅黑';}
+        .text-title{position:relative;margin-left:60px;margin-top:40px;font-size: 20px;font-weight:bold;font-family: '微软雅黑';color: #ff9800;}
+        .target{position:relative;margin-left:90px;margin-top:25px;padding:10px;}
+        .target a {display:inline-block;font-size:13px;height:20px; width: 50px;line-height:15px; background:#ff7043; border:0px; text-align:center; color:white; padding:7px;margin-right:30px;opacity:0.6;text-decoration: none;font-family:'微软雅黑';border-radius:3px;}
+        .userm{margin-left:120px;margin-top:850px;}
+        .userm a{text-decoration: none;}
+        .userm img{position:relative;margin-left:-5%;top:-770px;height: 100px;width: 100px;border-radius:150px;}
+        .userm span{position:relative;display:inline-block;margin-left:30px;top:10px;font-family: '微软雅黑';}
+        .userm p{position:relative;font-size: 15px;color:black;width: 1000px;margin-left:6%;top:-850px;font-family: '微软雅黑';}
+        .pag{position:relative;top:-560px;left:-120px;}
+        .pages {float:right;padding:14px 0 10px;font-family:'微软雅黑';text-decoration: none;}
+        .pages a {display:inline-block;height:33px; width: 60px;line-height:20px; background:white; border:0px; text-align:center; color:#ff7043; padding:8 8px;opacity:0.6;text-decoration: none;border-radius:6px;}
+        .pages a.a1 {display:inline-block; height:33px; width: 72px;line-height:20px; background:white; border:0px; color:#ff7043; text-align:center;padding:8 8px;opacity:0.6;border-radius:6px; }
+        .pages a:hover {background:#ff7043; color:white; text-decoration:none;}
+        .pages span {display:inline-block; height:33px; width: 60px;line-height:20px; background:#ff7043; border:0px; color:white; text-align:center;padding:8 8px;opacity:0.6;border-radius:6px;}
+        .page .noPage {display:inline-block; height:18px; width: 50px;line-height:20px; background:white; border:0px; color:#ff7043; text-align:center;padding:8 8px;opacity:0.6;border-radius:6px; }
+        .list-group form{margin-top: -50%;margin-left: -3%;width:95%;height: 290px;opacity:0.7;}
+        .aa img{position:relative;margin-left:-1%;top:-620px;height: 90px;width: 90px;border-radius:150px;}
+        .aa span{position:relative;margin-left:1%;top:-620px;font-size: 20px;font-weight: bold;font-family: '微软雅黑';} 
+        .footer{background-color:#ffb61e;} 
+    </style>
+
+<body>
+ 
+    <div class="header">
+        <div class="mybody">
+            <div class="logo"><img src="images/me too.png" height="50px" alt="logo"/></div>
+        
+            <div class="nav">
+                <ul>
+			    <li><a href="#">首  页</a></li>
+                <li><a href="#">推荐榜</a>
+                    <ul>
+ 					    <li><a href="#">景&nbsp;&nbsp;&nbsp;&nbsp;点</a></li>
+ 					    <li><a href="#">旅&nbsp;&nbsp;&nbsp;&nbsp;店</a></li>
+ 					    <li><a href="#">美&nbsp;&nbsp;&nbsp;&nbsp;食</a></li>
+ 					    <li><a href="#">购&nbsp;&nbsp;&nbsp;&nbsp;物</a></li>
+ 				    </ul>
+ 			    </li>
+                <li><a href="#">攻  略</a>
+                    <ul>
+ 					    <li><a href="#">游&nbsp;&nbsp;&nbsp;&nbsp;记</a></li>
+ 					    <li><a href="#">你问我答</a></li>
+ 				    </ul>
+ 			    </li>
+                <li><a href="#">迷途动态</a>
+           	        <ul>
+ 					    <li><a href="#">至美一拍</a></li>
+ 					    <li><a href="#">猜&nbsp;猜&nbsp;看</a></li>				
+ 				    </ul>
+ 			    </li>
+ 			    <li><a href="#">个人中心</a>
+           	        <ul>
+ 					    <li><a href="#">积分兑换</a></li>
+ 					    <li><a href="#">足&nbsp;&nbsp;&nbsp;&nbsp;迹</a></li>
+ 					    <li><a href="#">我参与的</a></li>				
+ 				    </ul>
+ 			    </li>
+
+ 		    </ul>
+            </div> 
+        </div>
+    </div>
+    <div class="content">
+        <div class="bread">
+	        	<a href="#">攻略 > </a><a href="#">你问我答 > </a><a href="#">内容页</a>
+	        </div>
+		    <div class="name">
+		        用户123
+		    </div>
+		    <div class="date1">
+		    	发表于2016-7-14
+		    </div>
+		    <div class="text-title">
+		    	漠河冬季冰雪都有什么项目？
+		    </div>
+		    <div class="target">
+		        <a href="#">漠河</a>
+		        <a href="#">冬季</a>
+		        <a href="#">冰雪</a>
+		    </div>
+            <div class="userm">
+                <a href="#">
+            	    <img src="images/user.jpg">
+            	    <span style="font-size:16px; color:#e51c23;">用户123</span>
+            	    <span style="font-size:13px; color:#607d8b;">发表于2016-7-14</span>
+            	    <p>
+            	    	标准三天行程的线路是下面这样的：<br/>
+                            D1:漠河-九曲十八弯-原始白桦林-63大桥-二十八站-乌苏里浅滩-龙江第一湾-北红村<br/>
+                            D2:北红村-女脚湾-神龙湾-鄂温克使鹿部落-北极村(最北邮局，北极沙洲，北极点，界碑，中国最北之家，最北供销社，寻找各种最北。）<br/>
+                            D3:北极村-飞来松-观音山-胭脂沟-漠河“56”火灾纪念馆-松苑公园-北极星广场-结束
+                            三天里你可以：打雪仗，对雪人，赏雾凇，看冰雕，看雪雕，滑雪，滑冰，坐马拉雪橇，看冬捕。<br/>
+            	    </p>
+                </a>
+
+                <a href="#">
+            	    <img src="images/user.jpg">
+            	    <span style="font-size:16px; color:#e51c23;">用户123</span>
+            	    <span style="font-size:13px; color:#607d8b;">发表于2016-7-14</span>
+            	    <p>
+            	    	标准三天行程的线路是下面这样的：<br/>
+                            D1:漠河-九曲十八弯-原始白桦林-63大桥-二十八站-乌苏里浅滩-龙江第一湾-北红村<br/>
+                            D2:北红村-女脚湾-神龙湾-鄂温克使鹿部落-北极村(最北邮局，北极沙洲，北极点，界碑，中国最北之家，最北供销社，寻找各种最北。）<br/>
+                            D3:北极村-飞来松-观音山-胭脂沟-漠河“56”火灾纪念馆-松苑公园-北极星广场-结束
+                            三天里你可以：打雪仗，对雪人，赏雾凇，看冰雕，看雪雕，滑雪，滑冰，坐马拉雪橇，看冬捕。<br/>
+            	    </p>
+                </a>
+
+                <a href="#">
+            	    <img src="images/user.jpg">
+            	    <span style="font-size:16px; color:#e51c23;">用户123</span>
+            	    <span style="font-size:13px; color:#607d8b;">发表于2016-7-14</span>
+            	    <p>
+            	    	标准三天行程的线路是下面这样的：<br/>
+                            D1:漠河-九曲十八弯-原始白桦林-63大桥-二十八站-乌苏里浅滩-龙江第一湾-北红村<br/>
+                            D2:北红村-女脚湾-神龙湾-鄂温克使鹿部落-北极村(最北邮局，北极沙洲，北极点，界碑，中国最北之家，最北供销社，寻找各种最北。）<br/>
+                            D3:北极村-飞来松-观音山-胭脂沟-漠河“56”火灾纪念馆-松苑公园-北极星广场-结束
+                            三天里你可以：打雪仗，对雪人，赏雾凇，看冰雕，看雪雕，滑雪，滑冰，坐马拉雪橇，看冬捕。<br/>
+            	    </p>
+                </a>
+
+                <a href="#">
+            	    <img src="images/user.jpg">
+            	    <span style="font-size:16px; color:#e51c23;">用户123</span>
+            	    <span style="font-size:13px; color:#607d8b;">发表于2016-7-14</span>
+            	    <p>
+            	    	标准三天行程的线路是下面这样的：<br/>
+                            D1:漠河-九曲十八弯-原始白桦林-63大桥-二十八站-乌苏里浅滩-龙江第一湾-北红村<br/>
+                            D2:北红村-女脚湾-神龙湾-鄂温克使鹿部落-北极村(最北邮局，北极沙洲，北极点，界碑，中国最北之家，最北供销社，寻找各种最北。）<br/>
+                            D3:北极村-飞来松-观音山-胭脂沟-漠河“56”火灾纪念馆-松苑公园-北极星广场-结束
+                            三天里你可以：打雪仗，对雪人，赏雾凇，看冰雕，看雪雕，滑雪，滑冰，坐马拉雪橇，看冬捕。<br/>
+            	    </p>
+                </a>
+            </div>
+            <div class="aa">
+            	<img src="images/user.jpg"/>
+            	<span>我来说几句</span>
+            </div>
+            <div class="list-group form">
+    	        <textarea class="txtDefaultHtmlArea" cols="50" rows="15"><p><h3>Test H3</h3>This is some sample text to test out the <b>WYSIWYG Control</b>.</p></textarea>
+  	        </div>
+    	      <div class="list-group-item">
+              <div class="col-sm-offset-2 col-sm-5">
+              <div class="row">
+    	        <div class=" col-sm-5">
+    	          <button type="submit" class="btn btn-primary">提 交 回 复</button>
+  	          </div>
+              <div class=" col-sm-5">
+   	            <button type="submit" class="btn btn-warning">重 置 内 容</button>
+  	          </div>
+              </div>
+              </div>
+  	        </div>
+  	      </form>
+  	    </div>
+
+		    <div class="pag">   
+		        <div class="pages" class="text-c">
+		            <a href="#" class="a1">上一页</a> 
+		            <span>1</span> 
+		            <a href="#">2</a> 
+		            <a href="#">3</a> 
+		            <a href="#">4</a> 
+		            <a href="#">5</a>
+		            <a href="#">...</a>
+		            <a href="#" class="a1">下一页</a>
+		        </div>   
+	        </div>
+    </div>
+</body>
+</html>
